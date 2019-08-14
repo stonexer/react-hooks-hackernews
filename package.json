@@ -1,0 +1,40 @@
+{
+  "name": "react-hooks-hackernews",
+  "version": "1.0.0",
+  "description": "An App using HackerNews API",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --devtool cheap-module-source-map",
+    "lint": "tsc",
+    "build": "webpack --mode production"
+  },
+  "author": "koba04",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "react": "^16.9.0",
+    "react-cache": "^2.0.0-alpha.1",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "yab-fetch": "^0.0.1-alpha.4",
+    "yab-fetch-logger": "^0.0.1-alpha.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.9.1",
+    "@types/react-cache": "^2.0.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/styled-components": "^4.1.18",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
