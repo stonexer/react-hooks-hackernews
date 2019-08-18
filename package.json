@@ -17,7 +17,7 @@
     "react-dom": "^16.9.0",
     "styled-components": "^4.3.2",
     "yab-fetch": "^0.0.1-alpha.4",
-    "yab-fetch-logger": "^0.0.1-alpha.4"
+    "yab-fetch-logger": "^0.0.1-alpha.5"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
